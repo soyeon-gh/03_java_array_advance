@@ -1,7 +1,5 @@
 package step3_01.arrayAdvance;
 
-import java.util.Arrays;
-
 public class ArrayEx34 {
 //2차원 배열
 	public static void main(String[] args) {
@@ -21,8 +19,8 @@ public class ArrayEx34 {
 		arr[1][2] = 70;
 		arr[1][3] = 80;
 		
-		for (int i = 0; i < 2; i++) {
-			for (int j = 0; j < 4; j++) {
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[i].length; j++) {
 				System.out.print(arr[i][j] + " ");
 			}
 			System.out.println();
