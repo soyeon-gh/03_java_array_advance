@@ -22,6 +22,7 @@ import java.util.Scanner;
 
 public class ArrayEx40_정답2 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
